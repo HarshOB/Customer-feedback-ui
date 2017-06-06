@@ -100,15 +100,10 @@ h1{
 
 a {
   color: #42b983;
-  margin-left: 270px;
+  float:right;
+  margin-right:50%;
 }
 
-/*Media Query*/
-@media only screen and (max-width: 900px) {
-  a {
-    color: #42b983;
-    margin-left: 130px;
-  }
-}
+
 
 </style>

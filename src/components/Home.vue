@@ -231,4 +231,78 @@ export default {
       margin:0 auto;
     }
   }
+  @media only screen and (max-width: 700px) {
+    .profile{
+      float:left;
+      width:20%;
+      height:200px;
+      border-right:2px solid black;
+    }
+    img{
+      border-radius: 50%;
+      text-align: center;
+      width: 100%;
+    }
+    .profile2{
+      padding-top: 20px;
+      text-align: center;
+      float:left;
+      width:40%;
+      height:200px;
+      border-right:2px solid black;
+      margin:0 auto;
+    }
+    .profile3{
+      text-align: center;
+      float:left;
+      width:40%;
+      height:200px;
+      border-right:2px solid black;
+      margin:0 auto;
+    }
+    p {
+      margin: 0 0 -5px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .profile{
+      float:left;
+      width:50%;
+      height:200px;
+      border:2px solid black;
+
+    }
+    img{
+      border-radius: 50%;
+      text-align: center;
+      width: 70%;
+    }
+    .profile2{
+      padding-top: 20px;
+      text-align: center;
+      width:50%;
+      height:200px;
+      border:2px solid black;
+
+      margin:0 auto;
+    }
+    .profile3{
+      text-align: center;
+      width:100%;
+      height:150px;
+      border-right:2px solid black;
+      border-left:2px solid black;
+      margin:0 auto;
+    }
+    p {
+      margin: 0 0 -5px;
+    }
+    .details[data-v-955a4de2] {
+      float: left;
+      padding-top: 0px;
+      width: 100%;
+      border-top: 2px dotted black;
+      margin: 0 auto;
+    }
+  }
 </style>

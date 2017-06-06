@@ -129,44 +129,7 @@ export default {
   span{
     font-weight: bold;
   }
-  @media only screen and (max-width: 1200px) {
-    .details[data-v-3f48e9d1] {
-    border-top: none;
-    }
-    .profile{
-      float:left;
-      width:20%;
-      height:200px;
-      border-right:2px solid black;
-    }
-    img{
-      border-radius: 50%;
-      text-align: center;
-      width: 150px;
-    }
-    .profile2{
-      padding-top: 20px;
-      text-align: center;
-      float:left;
-      width:40%;
-      height:200px;
-      border-right:2px solid black;
-      margin:0 auto;
-    }
-    .profile3{
-      padding-top: 2  0px;
-      text-align: center;
-      float:left;
-      width:40%;
-      height:200px;
-      border-right:2px solid black;
-      margin:0 auto;
-    }
-  }
   @media only screen and (max-width: 1000px) {
-    .details[data-v-3f48e9d1] {
-    border-top: none;
-    }
     .profile{
       float:left;
       width:20%;
@@ -195,6 +158,76 @@ export default {
       height:200px;
       border-right:2px solid black;
       margin:0 auto;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .profile{
+      float:left;
+      width:20%;
+      height:200px;
+      border-right:2px solid black;
+    }
+    img{
+      border-radius: 50%;
+      text-align: center;
+      width: 100%;
+    }
+    .profile2{
+      padding-top: 20px;
+      text-align: center;
+      float:left;
+      width:40%;
+      height:200px;
+      border-right:2px solid black;
+      margin:0 auto;
+    }
+    .profile3{
+      text-align: center;
+      float:left;
+      width:40%;
+      height:200px;
+      border-right:2px solid black;
+      margin:0 auto;
+    }
+    p {
+      margin: 0 0 -5px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .profile{
+      float:left;
+      width:50%;
+      height:200px;
+      border:2px solid black;
+
+    }
+    img{
+      border-radius: 50%;
+      text-align: center;
+      width: 70%;
+    }
+    .profile2{
+      padding-top: 20px;
+      text-align: center;
+      width:50%;
+      height:200px;
+      border:2px solid black;
+
+      margin:0 auto;
+    }
+    .profile3{
+      text-align: center;
+      width:100%;
+      height:150px;
+      border:2px solid black;
+      border-left:2px solid black;
+      margin:0 auto;
+    }
+    .details {
+      border-top:none;
+    }
+    .button_sub{
+      border-top:none;
     }
   }
 </style>
